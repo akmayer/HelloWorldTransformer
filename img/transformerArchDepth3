@@ -1,5 +1,5 @@
 strict digraph model {
-	graph [ordering=in rankdir=TB size="79.5,79.5"]
+	graph [ordering=in rankdir=TB size="78.6,78.6"]
 	node [align=left fontname=Helvetica fontsize=10 height=0.2 margin=0 ranksep=0.1 shape=plaintext style=filled]
 	edge [fontsize=10]
 	0 [label=<
@@ -1002,13 +1002,11 @@ strict digraph model {
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 	}
-	subgraph cluster_15 {
-		fontsize=12 label=Sequential labeljust=l style=dashed
-		77 [label=<
+	77 [label=<
                     <TABLE BORDER="0" CELLBORDER="1"
                     CELLSPACING="0" CELLPADDING="4">
                     <TR>
-                        <TD ROWSPAN="2">Linear<BR/>depth:2</TD>
+                        <TD ROWSPAN="2">Linear<BR/>depth:1</TD>
                         <TD COLSPAN="2">input:</TD>
                         <TD COLSPAN="2">(64, 10, 32) </TD>
                     </TR>
@@ -1017,7 +1015,6 @@ strict digraph model {
                         <TD COLSPAN="2">(64, 10, 1) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
-	}
 	78 [label=<
                     <TABLE BORDER="0" CELLBORDER="1"
                     CELLSPACING="0" CELLPADDING="4">
