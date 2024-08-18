@@ -1,5 +1,5 @@
 strict digraph model {
-	graph [ordering=in rankdir=TB size="25.8,25.8"]
+	graph [ordering=in rankdir=TB size="28.799999999999997,28.799999999999997"]
 	node [align=left fontname=Helvetica fontsize=10 height=0.2 margin=0 ranksep=0.1 shape=plaintext style=filled]
 	edge [fontsize=10]
 	0 [label=<
@@ -385,6 +385,31 @@ strict digraph model {
                     CELLSPACING="0" CELLPADDING="4">
                         <TR><TD>output-tensor<BR/>depth:0</TD><TD>(64, 10)</TD></TR>
                     </TABLE>> fillcolor=lightyellow]
+	32 [label=<
+                    <TABLE BORDER="0" CELLBORDER="1"
+                    CELLSPACING="0" CELLPADDING="4">
+                        <TR><TD>output-tensor<BR/>depth:0</TD><TD>(64, 10, 32)</TD></TR>
+                    </TABLE>> fillcolor=lightyellow]
+	33 [label=<
+                    <TABLE BORDER="0" CELLBORDER="1"
+                    CELLSPACING="0" CELLPADDING="4">
+                        <TR><TD>output-tensor<BR/>depth:0</TD><TD>(64, 10, 32)</TD></TR>
+                    </TABLE>> fillcolor=lightyellow]
+	34 [label=<
+                    <TABLE BORDER="0" CELLBORDER="1"
+                    CELLSPACING="0" CELLPADDING="4">
+                        <TR><TD>output-tensor<BR/>depth:0</TD><TD>(64, 10, 32)</TD></TR>
+                    </TABLE>> fillcolor=lightyellow]
+	35 [label=<
+                    <TABLE BORDER="0" CELLBORDER="1"
+                    CELLSPACING="0" CELLPADDING="4">
+                        <TR><TD>output-tensor<BR/>depth:0</TD><TD>(64, 10, 32)</TD></TR>
+                    </TABLE>> fillcolor=lightyellow]
+	36 [label=<
+                    <TABLE BORDER="0" CELLBORDER="1"
+                    CELLSPACING="0" CELLPADDING="4">
+                        <TR><TD>output-tensor<BR/>depth:0</TD><TD>(64, 10, 32)</TD></TR>
+                    </TABLE>> fillcolor=lightyellow]
 	0 -> 1
 	1 -> 2
 	2 -> 3
@@ -424,4 +449,9 @@ strict digraph model {
 	28 -> 29
 	29 -> 30
 	30 -> 31
+	4 -> 32
+	10 -> 33
+	16 -> 34
+	22 -> 35
+	28 -> 36
 }
